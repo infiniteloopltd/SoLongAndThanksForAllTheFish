@@ -16,7 +16,7 @@
         </div>
         <div class="wapper">
             <p>
-                We’re sorry to say that we are closing <span id="website">{website}</span> down, for good. It was fun while it lasted, but we decided that it’s time to close the curtains on some of our websites that are no longer viable.
+                We’re sorry to say that we are closing {website} down, for good. It was fun while it lasted, but we decided that it’s time to close the curtains on some of our websites that are no longer viable.
             </p>
             <p>
                 At their prime, tens of thousands of people would visit these sites, on a daily basis, and I hope that perhaps some useful connections were made. However, as sad as it is to say goodbye, the time has come.
@@ -25,19 +25,7 @@
                 If you’re interested in purchasing this domain name, or the data behind it, please get in contact via our company website <a href="https://www.infiniteloop.ie/">www.infiniteloop.ie</a> 
             </p>
             <p> So, as Douglas Adams wrote… So Long, and thanks for all the fish</p>
-
-
         </div>
     </div>
-	<script
-  src="https://code.jquery.com/jquery-1.12.4.min.js"
-  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-  crossorigin="anonymous"></script>
-  <script>
-  $(init);
-  function init(){
-   $("#website").text(window.location.hostname);
-  }
-  </script>
 </body>
 </html>
