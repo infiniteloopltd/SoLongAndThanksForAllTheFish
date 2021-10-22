@@ -1,0 +1,45 @@
+body{
+    font-size: 120%;
+   
+}
+.main{
+    width: 100%;
+    background-color:#2C2233;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 5px 10px #888888;
+    /* f */
+}
+.container{
+    margin: 10% 0%;
+    text-align: center;
+    width: 100%;
+    
+}
+.container img{
+    width: 100%;
+}
+.wapper{
+    margin: 10% 0% !important;
+}
+.wapper  p{
+    
+    color: #FFFFFF;
+    text-align: center;
+    padding: 2% 3%;
+    margin: 0% 15%;
+}
+.wapper a{
+    color:blueviolet;
+}
+@media only screen and (max-width: 768px){
+    .main{
+        flex-direction: column !important;
+    }
+} 
